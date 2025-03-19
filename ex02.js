@@ -1,5 +1,5 @@
 function vieillir(personne) {
-	return alice;
+	return personne.age++;
 }
 
 let alice = { nom: "Alice", age: 30, ville: "Paris" };

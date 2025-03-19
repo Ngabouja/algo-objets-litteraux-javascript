@@ -1,5 +1,6 @@
 function afficherInfosPersonne(personne) {
-	return personne;
+	return `${personne.nom}, a ${personne.age}, et habite à ${personne.ville}`;
 }
 
 console.log(afficherInfosPersonne({ nom: "Alice", age: 30, ville: "Paris" })); // 'Alice a 30 ans et habite à Paris.'
+console.log(afficherInfosPersonne({ nom: "Mathien", age: 17, ville: "lyon" })); // 'Alice a 30 ans et habite à Paris.'
